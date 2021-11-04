@@ -1,6 +1,6 @@
 {
   "name": "soccer-custom-league-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Library to create and manage a soccer league",
   "main": "src/index.js",
   "scripts": {
