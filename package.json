@@ -1,0 +1,22 @@
+{
+  "name": "soccer-custom-league-utils",
+  "version": "1.0.0",
+  "description": "Library to create and manage a soccer league",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mottaaaa/soccer_custom_league_utils.git"
+  },
+  "author": "Mottaaaa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mottaaaa/soccer_custom_league_utils/issues"
+  },
+  "homepage": "https://github.com/Mottaaaa/soccer_custom_league_utils#readme",
+  "dependencies": {
+    "uuid": "^8.3.2"
+  }
+}
