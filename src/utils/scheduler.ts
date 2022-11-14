@@ -1,7 +1,8 @@
 import { Match, MatchWeek } from '../models'
+import { IMatchWeek, ITeam } from '../types'
 import { validateTeamList } from './validator'
 
-export const scheduleMatches = ({ teams }) => {
+export const scheduleMatches = (teams: ITeam[]): IMatchWeek[] => {
   validateTeamList(teams)
   let matchweeks = []
 
