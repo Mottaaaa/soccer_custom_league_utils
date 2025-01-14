@@ -1,4 +1,4 @@
-import { IErrorCase } from '../types';
+import { IErrorCase } from 'types';
 
 export enum EError {
   IS_NOT_TEAM_LIST = 'Is not a team list',

@@ -1,5 +1,5 @@
 import * as uuid from 'uuid';
-import { IMatch } from '../types';
+import { IMatch } from 'types';
 
 type MatchProps = Omit<IMatch, 'id'>;
 

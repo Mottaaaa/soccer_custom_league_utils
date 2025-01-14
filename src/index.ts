@@ -1,9 +1,10 @@
-import { Team, Competition } from './models';
-import { ICompetition, IMatchWeek, ITeam } from './types';
-import * as Scheduler from './utils/scheduler';
+import { Team, Competition } from 'models';
+import { ICompetition, IMatchWeek, ITeam } from 'types';
+import { scheduleMatches } from 'utils/scheduler';
 
 export * from './models';
 export * from './types';
+export * as Scheduler from 'utils/scheduler';
 
 export const createCompetition = ({
   teamNames,
@@ -19,7 +20,7 @@ export const createCompetition = ({
   const teams: ITeam[] = teamNames.map((name) => Team(name));
 
   // Schedule the games
-  const matchWeeks: IMatchWeek[] = Scheduler.scheduleMatches(teams);
+  const matchWeeks: IMatchWeek[] = scheduleMatches(teams);
 
   return {
     ...competition,

@@ -1,5 +1,5 @@
-import { Match, MatchWeek } from '../models';
-import { IMatchWeek, ITeam } from '../types';
+import { Match, MatchWeek } from 'models';
+import { IMatchWeek, ITeam } from 'types';
 import { validateTeamList } from './validator';
 
 export const scheduleMatches = (teams: ITeam[]): IMatchWeek[] => {

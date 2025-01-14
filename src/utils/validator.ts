@@ -1,5 +1,5 @@
-import { errorCases } from '../errors';
-import { ITeam } from '../types';
+import { errorCases } from 'errors';
+import { ITeam } from 'types';
 
 export const validateTeamList = (teams: ITeam[]): void => {
   Object.keys(errorCases)
