@@ -1,5 +1,5 @@
-import * as uuid from 'uuid'
-import { ICompetition } from '../types'
+import * as uuid from 'uuid';
+import { ICompetition } from '../types';
 
 export const Competition = (name: string = ''): ICompetition => ({
   id: uuid.v4(),
@@ -7,4 +7,4 @@ export const Competition = (name: string = ''): ICompetition => ({
   running: false,
   teams: [],
   matchWeeks: [],
-})
+});
