@@ -1,4 +1,4 @@
 export interface IErrorCase {
-  premise: (params: string[]) => boolean
-  error: () => void
+  premise: (params: string[]) => boolean;
+  error: () => void;
 }
